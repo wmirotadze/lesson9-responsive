@@ -1,5 +1,65 @@
-.block1 {
-    width: 500px;
-    height: 500px;
+.header-bg {
+    background-image: url("../images/bg.jpg");
+    width: 1366px;
+    height: 324px;
+    padding: 30px 139px 0 139px;
+}
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1089px;
+    height: 20px;
+}
+.logo {
+    font: bold 14px/21px Poppins;
+    color: #FFFFFF;
+}
+.nav-a {
+    display: flex;
+    width: 50%;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav-ul a {
+    font: 600 12px/18px Poppins;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.title {
+    position: absolute;
+    font: 800 42px/56px Poppins;
+    color: #FFFFFF;
+    top: 146px;
+    left: 139px;
+    width: 196px;
+    height: 59px;
+}
+.section-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px 139px;
+    width: 1080px;
     background-color: grey;
+}
+.left-block {
+    width: 444px;
+    height: 388px;
+}
+.left-block h6 {
+    text-transform: uppercase;
+    font: bold 14px/21px Poppins;
+    color: #5863F8;
+}
+.left-block h2 {
+    font: 800 42px/56px Poppins;
+}
+.p1 {
+    font: medium 16px/25px Poppins;
+}
+.p2 {
+    font: normal normal normal 14px/21px Poppins;
 }
