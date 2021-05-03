@@ -1,13 +1,15 @@
 .header-bg {
     background-image: url("../images/bg.jpg");
-    width: 1366px;
+    max-width: 1366px;
+    width: 100%;
     height: 324px;
     padding: 30px 139px 0 139px;
 }
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    width: 1089px;
+    max-width: 1089px;
+    width: 100%;
     height: 20px;
 }
 .logo {
@@ -37,13 +39,17 @@
     width: 196px;
     height: 59px;
 }
+section {
+    display: flex;
+    justify-content: center;
+    max-width: 1366px;
+}
 .section-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 90px 139px;
+    margin: 90px auto;
     width: 1080px;
-    background-color: grey;
 }
 .left-block {
     width: 444px;
@@ -58,8 +64,84 @@
     font: 800 42px/56px Poppins;
 }
 .p1 {
-    font: medium 16px/25px Poppins;
+    font: normal normal medium 16px/25px Poppins;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 444px;;
 }
 .p2 {
     font: normal normal normal 14px/21px Poppins;
+    margin-bottom: 20px;
+    width: 444px;
+}
+.read-more {
+    position: relative;
+    width: 184px;
+    height: 50px;
+    background-color: #5863F8;
+}
+.read-more a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: normal normal normal 14px/21px Poppins;
+    color: #FFFFFF;
+}
+.right-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 536px;
+    height: 461px;
+}
+.footer-bg {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: left;
+    background-image: url(../images/footer-bg.jpg);
+    max-width: 1366px;
+    height: 612px;
+    padding: 92px 139px;
+}
+.footer-bg h6 {
+    text-transform: uppercase;
+    font: bold 14px/21px Poppins;
+    color: #5863F8;
+}
+.footer-bg h2 {
+    font: normal normal 800 42px/56px Poppins;
+    color: #FFFFFF;
+    max-width: 376px;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1088px;
+    height: 260px;
+}
+.footer-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 260px;
+    background-color: #FFFFFF;
+}
+.footer h4 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 188px;
+    font: normal normal 600 18px/27px Poppins;
+}
+.footer p {
+    text-align: center;
+    font: normal normal medium 14px/21px Poppins;
+    color: #B1B1B1;
+    width: 221px;
 }
