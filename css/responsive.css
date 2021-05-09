@@ -3,12 +3,4 @@
         flex-direction: column;
         flex-wrap: wrap;
     }
-} 
-@media (max-width: 900px) {
-    .footer-tile {
-        margin: 16px;
-    }
-    .footer-bg {
-        justify-content: center;
-    }
 }
